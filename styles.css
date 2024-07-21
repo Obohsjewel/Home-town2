@@ -1,0 +1,116 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius:100%;
+}
+
+.first-section{
+    background-image:url("images/Nigeriaphoto.avif");
+    background-size:cover;
+    padding:50px;
+    display: block;
+}
+
+.experience{
+    color:#e07a5f;
+    background-color:#ffe5d9; 
+    font-size: 20px;
+    padding:12px 15px;
+    border-radius: 10px;
+    text-shadow:0px 0 1px black;
+    
+}
+
+.feel{
+    color:#ffe5d9;
+    background-color:#e07a5f; 
+    font-size:13px;
+    padding:12px 15px;
+    border-radius: 10px;
+    text-shadow:0px 0 5px #219ebc;
+    
+}
+
+.second-section{
+    background-color:#f2cc8f;
+    padding: 2px;
+    
+}
+
+.sneak{
+    margin-top:20px;
+    font-size: 20px;
+    color:#bc4749;
+}
+
+.pic-title{
+     color:#bc4749;
+}
+
+.pic-details{
+    color:#bc4749;
+}
+
+.pic-section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    padding:40px;
+    margin-top:-20px;
+}
+
+.pic-one{
+    width:40%;
+    margin-right:50px;
+}
+
+.pic:hover{
+    width:200px;
+    height:200px;
+}
+
+.pic-two{
+    width:40%;    
+}
+
+.pic-three{
+    width:40%;
+    margin-left:50px;
+}
+
+.third-section{
+    display:flex;
+    flex-direction:row;
+    background-color: #e9edc9;
+    width:60%;
+    margin: 50px auto;
+    border-radius:20px;
+    border-top:5px solid #bc6c25;
+    border-bottom:5px solid #bc6c25;
+    color:#e07a5f;
+    font-weight: bold;
+    text-shadow: -0.6px 1px 1px black;
+}
+
+.third-section:hover{
+    background-color: #faedcd;
+    padding:20px;
+}
+
+
+
